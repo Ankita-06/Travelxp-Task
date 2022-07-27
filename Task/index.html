@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelxp</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <section class="home" id="home">
+
+    <div class="content">
+        <span class="hi"> Hi There... </span>
+        <h3> i am <span> XYZ </span> </h3>
+        <p class="info"> I’m a Web Developer</p>
+        <p class="text"> Please Contact Me For a Freelancer Project. </p>
+        <a href="#contact" class="btn">Contact Me</a>
+        <div class="follow">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+    </div>
+
+    <div class="image">
+        <img src="images/home-img.png" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span> me </span> </h1>
+
+    <form name="contact-form">
+      <div class="form-control">
+        <label>Full Name</label>
+        <input name="name"
+          placeholder="Name" class="box" />
+        <div class="error hide">Name is required</div>
+      </div>
+
+      <div class="form-control">
+        <label>Email</label>
+        <input
+          name="email"
+          placeholder="Email" class="box"
+        />
+        <div class="error hide">Email is invalid</div>
+      </div>
+
+      <div class="form-control">
+        <label>Phone</label>
+        <input name="phone" placeholder="Contact No." class="box"
+        ></input>
+        <div class="error hide">Phone is invalid</div>
+      </div>
+
+      <div class="form-control">
+        <label>Message</label>
+        <textarea name="message" placeholder="Message" id="" cols="30" rows="10"></textarea>
+        <div class="error hide">Message is required</div>
+      </div>
+
+      <hr />
+
+      <button type="submit">SUBMIT FORM</button>
+    </form>
+</section>
+
+<!-- contact section ends -->
+
+<!-- custom js file link  -->
+<script src="js/index.js"></script>
+
+</body>
+</html>
